@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",          // JavaScript version to compile to
+    "module": "commonjs",        // Module system to use
+    "rootDir": "./src",          // Root directory of TypeScript files
+    "outDir": "./dist",          // Output directory for compiled JavaScript files
+    "strict": true,              // Enable strict type-checking options
+    "esModuleInterop": true      // Enables interoperation between CommonJS and ES Modules
+  },
+  "include": ["src/**/*"],       // Files to include in the project
+  "exclude": ["node_modules"]    // Files to exclude from the project
+}
