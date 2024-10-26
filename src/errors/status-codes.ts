@@ -1,0 +1,16 @@
+const HttpStatusCodes = {
+  INTERNAL_SERVER_ERROR: 500,
+  NOT_IMPLEMENTED: 501,
+
+  BAD_REQUEST: 400,
+  NOT_FOUND: 404,
+  UNAUTHORIZED: 401,
+  FORBIDDEN: 403,
+  TOO_MANY_REQUESTS: 429,
+
+  FOUND: 302,
+
+  CREATED: 201,
+};
+
+export default HttpStatusCodes;

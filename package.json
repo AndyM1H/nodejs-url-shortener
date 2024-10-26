@@ -3,18 +3,25 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/server.js"
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "start:dev": "nodemon --watch src --exec ts-node src/server.ts"
   },
   "keywords": [
     "nodejs",
     "url",
     "shortener"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "AndyM1H",
+  "license": "MIT",
   "description": "",
   "devDependencies": {
+    "@types/node": "^22.5.2",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }
